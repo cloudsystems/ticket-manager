@@ -1,0 +1,94 @@
+/* 
+    Document   : global
+    Created on : 12-jul-2012, 16:40:26
+    Author     : jsegnini
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    color: #7A7572;
+    font-family: arial,sans-serif;
+    font-size: 74%;
+    margin:50px 0px; padding:0px;
+    text-align:center;
+    background-color: #F9F9F9;
+}
+
+a{
+    text-decoration:none;
+    color: #7A7572;
+}
+
+#header{
+    height:100px; 
+    width:100%; 
+    background-image:url("/images/bbva/degr_blue_top.gif");
+    background-repeat:no-repeat; 
+}
+
+#footer{
+    width:100%; 
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+
+#header-logo{
+    margin-top:30px;
+    float:left;
+    margin-left:50px;
+}
+
+#header-controls{
+    float:right;
+    display:inline;
+}
+
+#header-controls li:first-child{
+    list-style-image: url('/images/bbva/ico_close.gif');  
+}
+
+#header-subtitle{
+    font-size:40px;
+    text-align:right;
+    line-height:3;
+    color:#0093e2;
+}
+
+#Content {
+    width:95%;
+    margin:0px auto;
+    text-align:left;
+    background-color:#ffffff;
+    height:auto;
+    padding:15px 25px;
+}
+
+.sepfooter {
+    border-top: 1px solid #E1E1E1;
+    height: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: auto;
+}
+
+#footer_left {
+    float: left;
+    padding-left: 45px;
+}
+
+#footer_right {
+    float: right;
+    padding-right: 55px;
+}
+
+#footer_right ul {
+    padding:0;
+    margin:0;
+}
+
+#footer_right ul li {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
